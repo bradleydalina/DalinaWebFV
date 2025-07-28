@@ -30,7 +30,7 @@ Simply include the `dalinawebfv.js` file in your HTML:
 ```
 
 2. Initialize the validator in your JS
-```
+```javascript
 // Assuming DalinaWebFV is the class name
 const form = document.getElementById('myForm');
 const errorsDiv = document.getElementById('form-errors');
