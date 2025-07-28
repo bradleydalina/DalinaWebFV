@@ -30,7 +30,7 @@ Simply include the `dalinawebfv.js` file in your HTML:
 ```
 
 2. Initialize the validator in your JS
-```script
+```
 // Assuming DalinaWebFV is the class name
 const form = document.getElementById('myForm');
 const errorsDiv = document.getElementById('form-errors');
@@ -44,7 +44,7 @@ const validator = new DalinaWebFV(form, {
     // You can submit the form or handle data here
   }
 });
-```   
+```
 3. Available Validation Rules
 
 Add id to the form element
@@ -61,7 +61,6 @@ Example:
 
 4. Custom Messages
 You can configure custom error messages when initializing:
-```script
+```javascript
 const validator = new DalinaWebFV(formElementID);
 ```
-});
